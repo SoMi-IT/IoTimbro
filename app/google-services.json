@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656416064503",
+    "project_id": "smartbadgechecker",
+    "storage_bucket": "smartbadgechecker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656416064503:android:78a40a2edf98a6a3caa4f2",
+        "android_client_info": {
+          "package_name": "com.somi.smartbadgechecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656416064503-mtvsobv5onee02qm28agpn4ci8r74ivl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmthZHc0jF0jDA99U_JDe4oYgGVAsU7t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656416064503-mtvsobv5onee02qm28agpn4ci8r74ivl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

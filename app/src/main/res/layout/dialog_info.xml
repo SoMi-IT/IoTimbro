@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_100"
+    android:padding="20sp"
+    android:layout_marginVertical="80sp"
+    android:layout_marginHorizontal="10sp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_dialog_info"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/icon_question_round"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ScrollView
+            android:id="@+id/sv_dialog_info"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_marginTop="12sp"
+            android:layout_marginBottom="24sp"
+            app:layout_constraintTop_toBottomOf="@id/iv_dialog_info"
+            app:layout_constraintBottom_toTopOf="@id/b_dialog_info_dismiss"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scrollbarThumbVertical="@color/blue_400_t">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_dialog_info_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lorem Ipsum"
+                            android:textAlignment="center"
+                            android:textColor="@color/dark_transparent"
+                            android:textSize="16sp" />
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_dialog_info_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginEnd="40sp"
+            android:padding="14sp"
+            app:cornerRadius="30sp"
+            android:text="CHIUDI"
+            android:textColor="@color/white_100"
+            android:backgroundTint="@color/blue_400"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

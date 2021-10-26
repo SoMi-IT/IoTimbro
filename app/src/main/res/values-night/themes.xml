@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartBadgeChecker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white_100</item>
+        <item name="colorPrimaryVariant">@color/white_300</item>
+        <item name="colorOnPrimary">@color/dark_800</item>
+
+        <!-- Secondary brand color. -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_400</item>
+        <item name="colorSecondaryVariant">@color/blue_800</item>
+        <item name="colorOnSecondary">@color/dark_transparent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+</resources>

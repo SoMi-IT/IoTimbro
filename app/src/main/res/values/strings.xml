@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IoTimbro</string>
+
+    <string name="users">mindthehead.smartbadgechecker.users</string>
+    <string name="marks">mindthehead.smartbadgechecker.marks</string>
+
+</resources>

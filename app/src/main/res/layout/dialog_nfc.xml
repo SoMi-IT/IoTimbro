@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/white_100"
+android:padding="20sp"
+android:layout_marginVertical="80sp"
+android:layout_marginHorizontal="10sp"
+android:orientation="vertical"
+android:gravity="center">
+
+<ImageView
+    android:id="@+id/iv_dialog_nfc"
+    android:layout_width="wrap_content"
+    android:layout_height="60sp"
+    android:layout_margin="10sp"/>
+<TextView
+    android:id="@+id/tv_dialog_nfc_label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ATTENZIONE"
+    android:textAlignment="center"
+    android:textColor="@color/dark_800"
+    android:textSize="28sp"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_dialog_nfc_nfc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem Ipsum"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_200"
+                    android:textSize="20sp" />
+
+        </LinearLayout>
+
+</ScrollView>
+
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/b_dialog_nfc_dismiss"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50sp"
+    android:layout_marginStart="40sp"
+    android:layout_marginEnd="40sp"
+    android:padding="14sp"
+    app:cornerRadius="30sp"
+    android:text="CHIUDI"
+    android:textColor="@color/white_100"
+    android:backgroundTint="@color/blue_400"
+    android:textSize="20sp" />
+
+</LinearLayout>
